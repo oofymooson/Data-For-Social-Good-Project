@@ -51,4 +51,4 @@ The Boston Celtics have the most championships with 18.
 
 The Oklahoma City Thunder have the best record in our dataset with 64 wins and 18 losses.
 
-This program helps basketball fans compare NBA teams using historical championships and win-loss ratios. The Finals prediction is based only on team records though.
+This program helps basketball fans compare NBA teams using championships and win-loss ratios. The Finals prediction is based only on team records though.
