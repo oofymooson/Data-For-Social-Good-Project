@@ -1,5 +1,4 @@
 # Data-For-Social-Good-Project
-# NBA Data Analysis Project
 
 **By Mason Bieler and Matthew Byun**
 
@@ -16,27 +15,28 @@ Our dataset contains information about 30 NBA teams, including:
 - **loss.txt:** Number of losses for each team.
 - **championships.txt:** Total championships won by each team.
 
-The data is stored in four one-dimensional arrays using Java's FileReader methods.
+The data is stored in four 1d arrays.
 
 ## UML Diagram
 
 **UserStory**
 
-| Fields | Type |
-|---|---|
-| teams | String[] |
-| wins | int[] |
-| losses | int[] |
-| championships | int[] |
+Variables:
+- String[] teams
+- int[] wins
+- int[] losses
+- int[] championships
 
-| Constructors and Methods | Return Type |
-|---|---|
-| UserStory() | Constructor |
-| UserStory(String[] teams, int[] wins, int[] losses, int[] championships) | Constructor |
-| mostChampionships() | String |
-| bestRecord() | String |
-| toString() | String |
+Methods:
+- UserStory()
+- UserStory(teams, wins, losses, championships)
+- mostChampionships(): String
+- bestRecord(): String
+- toString(): String
 
+**DataRunner**
+
+- main(String[] args): void
 ## Description
 
 Our program analyzes NBA team statistics using Java, 1D arrays, loops, and conditional statements.
