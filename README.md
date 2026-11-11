@@ -39,9 +39,7 @@ The data is stored in four one-dimensional arrays using Java's FileReader method
 
 ## Description
 
-Our program analyzes NBA team statistics using Java, one-dimensional arrays, loops, and conditional statements.
-
-The `UserStory` class stores information about NBA teams, while the `DataRunner` class reads the text files, creates a `UserStory` object, and displays the results.
+Our program analyzes NBA team statistics using Java, 1D arrays, loops, and conditional statements.
 
 The program answers two questions:
 
@@ -51,6 +49,6 @@ The Boston Celtics have the most championships with 18.
 
 **Question 2: What team is most likely to reach the NBA Finals based on its record?**
 
-The Oklahoma City Thunder have the best record in our dataset with 64 wins and 18 losses, giving them a winning percentage of approximately 78%.
+The Oklahoma City Thunder have the best record in our dataset with 64 wins and 18 losses.
 
-This program helps basketball fans compare NBA teams using historical championships and win-loss statistics. The Finals prediction is based only on team records.
+This program helps basketball fans compare NBA teams using historical championships and win-loss ratios. The Finals prediction is based only on team records though.
