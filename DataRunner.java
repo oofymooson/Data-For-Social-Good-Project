@@ -1,28 +1,27 @@
 import java.util.Scanner;
 
-
 public class DataRunner {
   public static void main(String[] args) {
-
-    /*
-     * Reads NBA data from text files
-     */
-    String[] teams = FileReader.toStringArray("teams.txt");
+String[] teams = FileReader.toStringArray("teams.txt");
     int[] wins = FileReader.toIntArray("wins.txt");
-int[] losses = FileReader.toIntArray("loss.txt");
+    int[] loss = FileReader.toIntArray("Loss.txt");
     int[] championships = FileReader.toIntArray("championships.txt");
-
-    /*
-     * Creates a UserStory object
-     */
-    UserStory nba = new UserStory(teams, wins, losses, championships);
-
-    /*
-     * Prints the results
-     */
+  
+UserStory nba = new UserStory(teams, wins, loss, championships);
+    System.out.println("NBA best teams analysis");
     System.out.println(nba);
-    System.out.println("Question 1: " + nba.mostChampionships());
-    System.out.println("Question 2: " + nba.bestRecord());
+    System.out.println();
+    System.out.println(nba.findChampionships());
+    System.out.println(nba.bestRecord());
 
+
+
+    
+
+
+    
+    
+    
   }
 }
+
